@@ -1,0 +1,5 @@
+seq=input('Введите последовательность')
+list_seq=seq.replace(',',' ').replace(';',' ').replace('/',' ').split()
+print(list_seq)
+new_list=set(list_seq)
+print(new_list)
